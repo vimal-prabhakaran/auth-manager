@@ -17,7 +17,7 @@ import javax.security.auth.login.LoginException;
 import java.util.Objects;
 
 @RestController
-@RequestMapping("/api/v1")
+@RequestMapping("/api/v1/auth")
 public class UserController {
 
     @Autowired
